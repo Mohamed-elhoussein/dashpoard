@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.pages{
+    background-color: #f7f7f7;
+    min-height: 100vh;
+}
+header{
+    background-color: #030032;
+    width: 100%;
+    height: 60px;
+    position: sticky;
+        top: 0;
+        z-index: 4;
+}
+header .search{
+        width: 27%
+}
+.logo h2{
+padding: 5px;
+color: orange;
+font-size: 38px;
+}
+.logo span{
+    color: white;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-family: 'Font Awesome 6 Free';
+}
+.icons{
+    padding: 0 13px;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.icons i:hover{
+    color: white;
+}
+.ico ,.ic{
+ position: relative;
+}
+.ico  p::after{
+content: " ";
+    position: absolute;
+    background: red;
+    top: -4px;
+    right: 30%;
+    display: flex;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+}
+.massage{
+position: absolute;
+    left: 54%;
+    background: white;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+    top: 10.5%;
+    width: 450px;
+}
+.prag{
+    font-size: 50%;
+        color: white;
+        width: 100%;
+        text-align: left;
+        padding: 0 5px;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+}
+.masen p{
+    font-size: 54%;
+}
+.online{
+    display: flex;
+        font-size: 13px;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+}
+.online h3{
+    width: 22%;
+}
+/* ----- */
+.pending{
+        top: 10.5%;
+position: absolute;
+    left: 71%;
+    background: white;
+    text-align: center;
+    font-size: 91%;
+    width: 190px;
+    color: white;
+    text-transform: capitalize;
+    display: none;
+}
+.download{
+width: 79%;
+height: 8px;
+font-size: 13px;
+transform: translate(10%);
+margin-bottom: 10px;
+}
+h5{
+    color: rgba(0, 0, 0, 0.628);
+    padding: 3px 0;
+}
+.download .s{
+    color: rgba(0, 0, 0, 0.422);
+    display: flex;
+   transform: translate(100%, -72%);
+}
+/* --------------------- */
+/* nav section */
+.nav{
+    height: 100vh;
+        width: 22%;
+        background: white;
+        box-shadow: -5px 2px 15px black;
+        overflow-x: auto;
+        position: sticky;
+        top: 0;
+}
+.body-nav .bt,.btn{
+    outline: none;
+        border: none;
+        color: white;
+        font-size: 14px;
+        padding: 2px 8px;
+        border-radius: 5px;
+}
+.body-nav .bt{
+ background: #0000ff78;
+}
+.body-nav .btn{
+background-image: linear-gradient( 40deg,blue,blueviolet,red);
+padding: 3px 11px;
+}
+.pad span{
+    display: block;
+    font-size: 20px;
+    padding: 20px 5px;
+
+}
+.body-nav:hover{
+background-color:#5046e5;
+border-radius: 5px;
+overflow: auto;
+color: white;
+}
+ #o:hover {
+color: white;
+}
+.down{
+    width: 79%;
+        height: 8px;
+        font-size: 13px;
+        transform: translate(10%);
+        margin-bottom: 10px;
+}
+/* end nav */
+/* start body */
+.body{
+    width: 78%;
+}
+.in-body{
+    width: 95%;
+}
+.traffic{
+    position: relative;
+        width: 50%;
+        background: white;
+        border-radius: 1em;
+}
+.datsh{
+    width: 96%;
+        height: 1px;
+        border: 0.2px dashed black;
+}
+#pa{
+    padding: 25px 0;
+    position: relative;
+}
+.jan{
+        height: 53%;
+            top: 33%;
+            position: absolute;
+            left: 9%;
+}
+.feb {
+height: 20%;
+    top: 66%;
+    position: absolute;
+    left: 27%;
+}
+.mar {
+height: 30%;
+    top: 56%;
+    position: absolute;
+    left: 46%;
+}
+.apr {
+    height: 10%;
+        top: 76%;
+        position: absolute;
+        left: 66%;
+}
+.may {
+height: 40%;
+    top: 46%;
+    position: absolute;
+    left: 85%;
+}
+.span>span{
+display: inline-block;
+margin: 17px 30px;
+}
+.border{
+background: white;
+        padding: 15px;
+        margin-top: 18px
+}
+h6{
+    font-size: 30px;
+        color: #0000007d;
+        padding: 10px 0;
+}
+
+.css {
+    position: relative;
+    width: 40%;
+    margin: auto;
+    transform: translate(37px, 168px);
+}
+
+.sircle {
+
+    position: absolute;
+    transform: translate(50px, 76px);
+}
+
+circle {
+    fill: none;
+    color: #673ab7;
+    stroke: url(#GradientColor);
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    stroke-width: 15px;
+    animation: num 1s linear forwards;
+
+    border-top-style: double;
+    border-right-style: double;
+
+}
+.ood{
+    width: 60%;
+}
+
+@keyframes num {
+    100% {
+        stroke-dashoffset: 160;
+    }
+}
+/* end body */
